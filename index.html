@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#070914">
+  <meta name="description" content="PROJECT X//EDGE — MUGEN 1.1 / IKEMEN GO 向けキャラクター・ダウンロードポータル。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PROJECT X//EDGE — Character Download Portal">
+  <meta property="og:description" content="MUGEN / IKEMEN GO Character Project. New generation combat experience.">
+  <title>PROJECT X//EDGE | Character Download Portal</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./site-config.js"></script>
+  <script defer src="./script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#characters">キャラクター一覧へ移動</a>
+  <div class="top-accent" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <div class="header-inner wrap">
+      <a href="#top" class="brand" aria-label="PROJECT X//EDGE トップに戻る">
+        <span class="brand-mark" aria-hidden="true"><span>X</span></span>
+        <span class="brand-name"><b>PROJECT X<span>//</span>EDGE</b><small>CHARACTER DISTRIBUTION</small></span>
+      </a>
+      <button id="menu-toggle" class="menu-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="メニューを開く"><span></span><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="メインメニュー">
+        <a href="#characters">CHARACTERS</a>
+        <a href="#downloads">DOWNLOAD</a>
+        <a href="#updates">UPDATES</a>
+        <a href="#about">ABOUT</a>
+        <a href="#characters" class="nav-pill">EXPLORE <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div><div class="hero-glow" aria-hidden="true"></div>
+      <div class="wrap hero-inner">
+        <div class="hero-content">
+          <div class="eyebrow"><span class="blink"></span> MUGEN 1.1 / IKEMEN GO <span class="eyebrow-divider">—</span> FAN PROJECT</div>
+          <p class="hero-series">NEXT-GEN COMBAT PROJECT</p>
+          <h1 id="hero-title">PROJECT <span class="hero-title-line">X<span class="slash">//</span>EDGE</span></h1>
+          <p class="hero-jp">一撃の、その先へ。</p>
+          <p class="hero-description">キャラクターの動き、攻防のテンポ、そして一瞬の駆け引き。<br class="desktop-break">MUGEN / IKEMEN GO向けキャラクター制作プロジェクト。</p>
+          <div class="hero-actions">
+            <a class="button-primary" href="#characters">キャラクターを見る <span aria-hidden="true">↗</span></a>
+            <a class="button-outline" href="#downloads">ダウンロード案内 <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-meta"><span><i></i> CHARACTER COLLECTION</span><span><strong>04</strong> PROJECT SLOTS</span><span>FREE / FAN-MADE</span></div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orb orb-outer"></div><div class="orb orb-mid"></div><div class="orb orb-inner"></div>
+          <div class="hero-razor razor-a"></div><div class="hero-razor razor-b"></div>
+          <div class="giant-x">X</div>
+          <div class="art-axis axis-v"></div><div class="art-axis axis-h"></div>
+          <span class="art-corner art-corner-a">EDGE : SYSTEM / 01</span>
+          <span class="art-corner art-corner-b">COMBAT PROTOCOL</span>
+          <span class="coordinate coordinate-a">34.812 / EXEC</span>
+          <span class="coordinate coordinate-b">PXE-2026</span>
+        </div>
+      </div>
+      <div class="hero-foot wrap"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>01 / 04</span></div>
+    </section>
+
+    <div class="marquee" aria-label="PROJECT X//EDGE / MUGEN / IKEMEN GO">
+      <div class="marquee-content" aria-hidden="true">PROJECT X//EDGE <span>✦</span> MUGEN 1.1 <span>✦</span> IKEMEN GO <span>✦</span> CHARACTER PROJECT <span>✦</span> PROJECT X//EDGE <span>✦</span> MUGEN 1.1 <span>✦</span> IKEMEN GO <span>✦</span> CHARACTER PROJECT <span>✦</span></div>
+    </div>
+
+    <section class="section roster-section wrap" id="characters" aria-labelledby="roster-title">
+      <div class="section-heading"><div><p class="section-kicker">01 — CHARACTER SELECT</p><h2 id="roster-title">THE <em>ROSTER</em><span class="heading-period">.</span></h2><p class="section-desc">プロジェクトのキャラクターたち。作品ごとの制作・配布状況をここから確認。</p></div><span class="section-counter">SELECT YOUR FIGHTER <strong>/ 04</strong></span></div>
+      <div class="filter-bar" role="group" aria-label="キャラクター表示フィルター"><button type="button" data-filter="all" aria-pressed="true">ALL <span>04</span></button><button type="button" data-filter="playable" aria-pressed="false">PLAYABLE</button><button type="button" data-filter="training" aria-pressed="false">TRAINING</button></div>
+      <div class="character-grid" id="character-grid"><!-- script.js がカードを生成 --></div>
+      <div class="roster-notice"><span class="notice-symbol">✳</span> 掲載画像は正式な立ち絵を追加するまでデザイン用の仮表示です。<span>NEW UPDATES COMING</span></div>
+    </section>
+
+    <section class="band-section" id="downloads" aria-labelledby="download-title">
+      <div class="band-lines" aria-hidden="true"></div>
+      <div class="wrap band-inner">
+        <div><p class="section-kicker">02 — DISTRIBUTION</p><h2 id="download-title">READY TO <em>PLAY?</em></h2><p>キャラクターデータは、各キャラクターのZIPダウンロード欄から入手できます。<br>公開前のものは「準備中」と表示されます。</p><div class="platforms"><span>MUGEN 1.1</span><span>IKEMEN GO</span><span>WINDOWS</span></div></div>
+        <div class="download-info"><div class="download-icon" aria-hidden="true">↓</div><strong>DIRECT DOWNLOAD</strong><span>Release ZIP / No registration required for visitors</span><a href="#characters">CHECK CHARACTER STATUS <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section updates-section wrap" id="updates" aria-labelledby="updates-title">
+      <div class="section-heading"><div><p class="section-kicker">03 — PROJECT NEWS</p><h2 id="updates-title">LATEST <em>UPDATES</em><span class="heading-period">.</span></h2></div><span class="section-counter">DEV LOG / RELEASE NOTES</span></div>
+      <div class="updates-list" id="updates-list"></div>
+    </section>
+
+    <section class="section about-section wrap" id="about" aria-labelledby="about-title">
+      <div class="about-head"><div><p class="section-kicker">04 — ABOUT THE PROJECT</p><h2 id="about-title">BUILT FOR <em>THE FIGHT.</em></h2></div><span class="about-cross" aria-hidden="true">✳</span></div>
+      <div class="about-layout"><p class="about-lead">キャラクターの個性を、<br>一つひとつのモーションに。</p><div class="about-copy"><p>PROJECT X//EDGE は、MUGEN 1.1 / IKEMEN GO向けのキャラクター制作・配布プロジェクトです。戦闘モーション、演出、操作感などを調整しながら制作しています。</p><p>ダウンロードしたZIPの導入方法は、各配布物に同梱される説明書をご確認ください。既存データは必ずバックアップしてください。</p><div class="about-tags"><span>ANIMATION</span><span>COMBAT</span><span>VISUAL EFFECTS</span><span>FAN PROJECT</span></div></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-main"><div class="footer-brand"><span class="footer-x">X<span>//</span>EDGE</span><p>MUGEN / IKEMEN GO CHARACTER PROJECT</p></div><a href="#top" class="back-top">BACK TO TOP <span aria-hidden="true">↑</span></a></div><div class="wrap footer-bottom"><p>© <span id="copyright-year">2026</span> PROJECT X//EDGE. Non-commercial fan project. 各作品・キャラクター・名称の権利は各権利者に帰属します。</p><span>MADE WITH PASSION / BUILT TO FIGHT</span></div></footer>
+</body>
+</html>

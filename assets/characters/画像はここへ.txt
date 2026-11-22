@@ -1,0 +1,11 @@
+採用済みの各キャラクターの立ち絵を、このフォルダーに透過PNGで入れます。
+推奨ファイル名:
+  nanaya.png    七夜エクストラ
+  sanchan.png   さんちゃん
+  white-len.png 白レン
+  black-len.png 黒レン
+
+PNGを入れた後、site-config.js内の対応する image: "" を
+image: "./assets/characters/nanaya.png" のように変更してください。
+
+今はキャラの外観を勝手に変更しないため、写真なしの専用デザイン表示です。
