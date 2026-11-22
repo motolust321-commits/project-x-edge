@@ -16,10 +16,10 @@ window.XEDGE_CONFIG = {
   characters: [
     {
       id: "nanaya", number: "01", name: "七夜エクストラ", english: "NANAYA EXTRA",
-      type: "playable", category: "PLAYABLE CHARACTER", status: "制作中",
+      type: "playable", category: "PLAYABLE CHARACTER", status: "公開中",
       description: "黒いダウンジャケットとナイフを携えた、高速連係を軸にするファイター。新デザインでリニューアル中。",
       features: ["HIGH-SPEED", "KNIFE COMBAT", "COMBO"],
-      version: "", fileSize: "", image: "./assets/characters/ナナヤの開いた手の構え.png", downloadUrl: "", accent: "cyan", motif: "七"
+      version: "v0.1", fileSize: "218 MB", image: "./assets/characters/ナナヤの開いた手の構え.png", downloadUrl: "https://github.com/motolust321-commits/project-x-edge/releases/download/nanaya-v0.1/Nanaya_Extra.zip", accent: "cyan", motif: "七"
     },
     {
       id: "sanchan", number: "02", name: "さんちゃん", english: "SANCHAN",
