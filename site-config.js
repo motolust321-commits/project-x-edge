@@ -19,7 +19,7 @@ window.XEDGE_CONFIG = {
       type: "playable", category: "PLAYABLE CHARACTER", status: "制作中",
       description: "黒いダウンジャケットとナイフを携えた、高速連係を軸にするファイター。新デザインでリニューアル中。",
       features: ["HIGH-SPEED", "KNIFE COMBAT", "COMBO"],
-      version: "", fileSize: "", image: "./assets/characters/ナナヤの開いた手の構え.png",, downloadUrl: "", accent: "cyan", motif: "七"
+      version: "", fileSize: "", image: "./assets/characters/ナナヤの開いた手の構え.png", downloadUrl: "", accent: "cyan", motif: "七"
     },
     {
       id: "sanchan", number: "02", name: "さんちゃん", english: "SANCHAN",
